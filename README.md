@@ -33,3 +33,29 @@ found 0 vulnerabilities
   }
 }
 ```
+
+## 빌드 스크립트 추가
+`package.json` 파일를 열어 `scripts` 항목에 아래의 내용을 추가한다.
+```json
+...
+"scripts" : {
+  "doc": "jsdoc -c jsdoc.json"
+}
+...
+```
+그리고 `src` 폴더를 `ROOT`에 생성하고 그 안에 `index.js`를 생성 후 아래의 명령어를 실행한다.
+```shell
+$ npm run doc
+```
+그럼 다음과 같은 폴더 구조로 완성이 될 것이다.
+```
+.
+├── README.md
+├── docs
+├── jsdoc.json
+├── node_modules
+├── package-lock.json
+├── package.json
+└── src
+    └── index.js
+```
