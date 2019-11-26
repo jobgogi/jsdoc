@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jobgogi/jsdoc/issues"
   },
-  "homepage": "https://github.com/jobgogi/jsdoc#readme"
+  "homepage": "https://github.com/jobgogi/jsdoc#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
 }
