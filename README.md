@@ -59,3 +59,13 @@ $ npm run doc
 `docs` 폴더에 접근하여 안에 있는 `index.html`을 라이브서버로 실행한다. 그럼 아래와 같은 화면이 브라우저 상에서 보여지게 될 것이다.
 
 ![imgs/_2019-11-27__8.07.18.png](imgs/_2019-11-27__8.07.18.png)
+
+## 변수를 등록해보자.
+변수를 jsdoc에 등록하는 방법은 아래와 같다.
+```javascript
+/**
+ * Student Name
+ * @type {string}
+ */
+const studentName = 'Job Gogi';
+```
